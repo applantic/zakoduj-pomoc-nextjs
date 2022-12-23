@@ -5,7 +5,7 @@ export const Header = () => {
     <header>
       <nav>
         <Link href="/">Zakoduj Pomoc</Link>
-        <Link href="/">Projekty</Link>
+        <Link href="./projects">Projekty</Link>
         <Link href="/">Zespół</Link>
         <Link href="/">Dokumenty</Link>
         <Link href="/">Kontakt</Link>
