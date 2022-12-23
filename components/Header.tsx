@@ -8,7 +8,7 @@ export const Header = () => {
         <Link href="./projects">Projekty</Link>
         <Link href="./team">Zespół</Link>
         <Link href="./documents">Dokumenty</Link>
-        <Link href="/">Kontakt</Link>
+        <Link href="./contact">Kontakt</Link>
       </nav>
     </header>
   );
