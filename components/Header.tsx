@@ -7,7 +7,7 @@ export const Header = () => {
         <Link href="/">Zakoduj Pomoc</Link>
         <Link href="./projects">Projekty</Link>
         <Link href="./team">Zespół</Link>
-        <Link href="/">Dokumenty</Link>
+        <Link href="./documents">Dokumenty</Link>
         <Link href="/">Kontakt</Link>
       </nav>
     </header>
