@@ -1,11 +1,13 @@
+import { Footer } from "../components/Footer";
+import { Header } from "../components/Header";
+
+
 const Home = () => {
   return (
     <div className="flex flex-col min-h-screen bg-teal-50">
-      <header>
-        <nav>--nawigacja--</nav>
-      </header>
+      <Header/>
       <main className="flex-grow">--zawartość--</main>
-      <footer>--stopka--</footer>
+      <Footer />
     </div>
   );
 };
