@@ -6,7 +6,7 @@ export const Header = () => {
       <nav>
         <Link href="/">Zakoduj Pomoc</Link>
         <Link href="./projects">Projekty</Link>
-        <Link href="/">Zespół</Link>
+        <Link href="./team">Zespół</Link>
         <Link href="/">Dokumenty</Link>
         <Link href="/">Kontakt</Link>
       </nav>
