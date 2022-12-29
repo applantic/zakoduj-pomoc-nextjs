@@ -30,7 +30,7 @@ resource "aws_amplify_app" "zakoduj-pomoc-nextjs" {
           commands:
             - yarn run build
       artifacts:
-        baseDirectory: .next
+        baseDirectory: build
         files:
           - '**/*'
       cache:
