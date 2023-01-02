@@ -12,22 +12,22 @@ export const Header = () => {
         <nav className="text-indigo-900 my-2.5 mx-auto">
           <Link
             href="./projects"
-            className="mt-1 mr-3 mb-1 ml-3 hover:font-bold"
+            className="mt-1 mr-3 mb-1 ml-3 hover:underline"
           >
             Projekty
           </Link>
-          <Link href="./team" className="mt-1 mr-3 mb-1 ml-3 hover:font-bold">
+          <Link href="./team" className="mt-1 mr-3 mb-1 ml-3 hover:underline">
             Zespół
           </Link>
           <Link
             href="./documents"
-            className="mt-1 mr-3 mb-1 ml-3 hover:font-bold"
+            className="mt-1 mr-3 mb-1 ml-3 hover:underline"
           >
             Dokumenty
           </Link>
           <Link
             href="./contact"
-            className="mt-1 mr-3 mb-1 ml-3 hover:font-bold"
+            className="mt-1 mr-3 mb-1 ml-3 hover:underline"
           >
             Kontakt
           </Link>
