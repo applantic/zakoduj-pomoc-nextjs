@@ -2,52 +2,61 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <main className="flex-grow flex justify-center items-end">
-      <section>
-        <div>
-          <h1>Budujemy software dla&nbsp;fundacji charytatywnych</h1>
-          <p>
+    <main className="my-0 mx-5 max-w-7xl">
+      <section className="text-indigo-900 flex items-start pt-8 lg:pt-12 lg:h-auto">
+        <div className="flex flex-col justify-center mb-2.5">
+          <h1 className="text-indigo-900 font-weight: 700 text-3xl leading-8 mx-0 my-2 lg:text-5xl lg:leading-11">
+            Budujemy software dla&nbsp;fundacji charytatywnych
+          </h1>
+          <p className="text-slate-500 text-base font-medium mt-4 mb-4 mx-0 lg:text-xl lg:m-1.5">
             Nasi wolontariusze pracują ciężko, <br />
             żebyście Wy mogli pracować lżej
           </p>
         </div>
         <Image
           src="/../public/laptop.png"
-          alt={"Example image"}
-          width={100}
-          height={100}
+          alt={"Laptop image"}
+          width={500}
+          height={446.43}
+          className="hidden my-4 mx-8 absolute max-w-xs lg:inline lg:static lg:z-auto lg:max-w-lg"
         ></Image>
       </section>
-      <section>
+      <section className="flex relative lg:h-auto">
         <Image
           src="/../public/calender.png"
-          alt={"Example image"}
-          width={100}
-          height={100}
+          alt={"Calendar image"}
+          width={450}
+          height={350.42}
+          className="hidden my-4 mx-8 absolute lg:inline lg:static lg:z-auto lg:pr-5 lg:max-w-md"
         ></Image>
-        <div>
-          <h2>Potrzebujesz Pomocy?</h2>
-          <p>
+        <div className="flex flex-col justify-center mb-2.5">
+          <h2 className="text-indigo-900 text-2xl mx-0 my-px lg:text-4xl lg:mx-0 lg:my-1">
+            Potrzebujesz Pomocy?
+          </h2>
+          <p className="text-slate-500 text-base font-medium mt-1 mb-4 mx-0 lg:text-xl lg:m-1.5">
             Skontaktuj sie z nami. Opisz nam swój problem i jeśli będziemy w
             stanie pomóc, umówimy się na spotkanie.
           </p>
-          <button>klik!</button>
+          <button>Dowiedz się więcej!</button>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Zobacz nasze projekty.</h2>
-          <p>
+      <section className="flex relative lg:h-auto">
+        <div className="flex flex-col justify-center mb-2.5">
+          <h2 className="text-indigo-900 text-2xl leading-5 mx-0 my-1 lg:text-4xl">
+            Zobacz nasze projekty.
+          </h2>
+          <p className="text-slate-500 text-base font-medium mt-1 mb-4 mx-0 lg:text-xl lg:m-1.5">
             Do każdego projektu podchodzimy indywidualnie. Skupiamy się na
             rozwiazywaniu problemów i przejrzystym designie.
           </p>
-          <button>klik!</button>
+          <button>Dowiedz się więcej!</button>
         </div>
         <Image
           src="/../public/folder.png"
-          alt={"Example image"}
-          width={100}
-          height={100}
+          alt={"Folder image"}
+          width={430}
+          height={394.79}
+          className="hidden my-4 mx-8 max-w-xs absolute lg:inline lg:static lg:z-auto lg:max-w-md"
         ></Image>
       </section>
     </main>

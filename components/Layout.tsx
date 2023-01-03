@@ -8,9 +8,9 @@ interface LayoutProps {
 
 export const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="flex flex-col min-h-screen bg-teal-50 font-Poppins">
+    <div className="flex flex-col min-h-screen bg-gradient-to-br from-purple-200 via-indigo-100 font-Poppins">
       <Header />
-      <div className="flex-grow">{children}</div>
+      <div className="flex flex-grow justify-evenly">{children}</div>
       <Footer />
     </div>
   );
