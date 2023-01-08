@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "../components/Button";
 
 const Home = () => {
   return (
@@ -37,7 +38,7 @@ const Home = () => {
             Skontaktuj sie z nami. Opisz nam swój problem i jeśli będziemy w
             stanie pomóc, umówimy się na spotkanie.
           </p>
-          <button>Dowiedz się więcej!</button>
+          <Button link="./contact" message="Dowiedz się więcej" />
         </div>
       </section>
       <section className="flex relative lg:h-auto">
@@ -49,7 +50,7 @@ const Home = () => {
             Do każdego projektu podchodzimy indywidualnie. Skupiamy się na
             rozwiazywaniu problemów i przejrzystym designie.
           </p>
-          <button>Dowiedz się więcej!</button>
+          <Button link="./projects" message="Dowiedz się więcej" />
         </div>
         <Image
           src="/../public/folder.png"
