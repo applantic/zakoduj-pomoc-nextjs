@@ -3,10 +3,10 @@ import { Button } from "../components/Button";
 
 const Home = () => {
   return (
-    <main className="my-0 mx-5 max-w-7xl">
-      <section className="text-indigo-900 flex items-start pt-8 lg:pt-12 lg:h-auto">
-        <div className="flex flex-col justify-center mb-2.5">
-          <h1 className="text-indigo-900 font-weight: 700 text-3xl leading-8 mx-0 my-2 lg:text-5xl lg:leading-11">
+    <main className="my-0 mx-5 max-w-5xl">
+      <section className="text-indigo-900 flex items-start pt-8 lg:pt-12">
+        <div className="flex flex-col justify-center mb-2.5 max-w-lg">
+          <h1 className="text-indigo-900 font-semibold text-3xl leading-8 mx-0 my-2 lg:text-5xl lg:leading-tight">
             Budujemy software dla&nbsp;fundacji charytatywnych
           </h1>
           <p className="text-slate-500 text-base font-medium mt-4 mb-4 mx-0 lg:text-xl lg:m-1.5">
@@ -30,8 +30,8 @@ const Home = () => {
           height={350.42}
           className="hidden my-4 mx-8 absolute lg:inline lg:static lg:z-auto lg:pr-5 lg:max-w-md"
         ></Image>
-        <div className="flex flex-col justify-center mb-2.5">
-          <h2 className="text-indigo-900 text-2xl mx-0 my-px lg:text-4xl lg:mx-0 lg:my-1">
+        <div className="flex flex-col justify-center mb-2.5 max-w-lg">
+          <h2 className="text-indigo-900 font-semibold text-2xl mx-0 my-px lg:text-4xl lg:mx-0 lg:my-1">
             Potrzebujesz Pomocy?
           </h2>
           <p className="text-slate-500 text-base font-medium mt-1 mb-4 mx-0 lg:text-xl lg:m-1.5">
@@ -42,8 +42,8 @@ const Home = () => {
         </div>
       </section>
       <section className="flex relative lg:h-auto">
-        <div className="flex flex-col justify-center mb-2.5">
-          <h2 className="text-indigo-900 text-2xl leading-5 mx-0 my-1 lg:text-4xl">
+        <div className="flex flex-col justify-center mb-2.5 max-w-lg">
+          <h2 className="text-indigo-900 font-semibold text-2xl leading-5 mx-0 my-1 lg:text-4xl">
             Zobacz nasze projekty.
           </h2>
           <p className="text-slate-500 text-base font-medium mt-1 mb-4 mx-0 lg:text-xl lg:m-1.5">
