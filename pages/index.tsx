@@ -15,7 +15,7 @@ const Home = () => {
           </p>
         </div>
         <img
-          src="/../public/laptop.png"
+          src="/laptop.png"
           alt={"Laptop image"}
           width={500}
           height={446.43}
@@ -24,7 +24,7 @@ const Home = () => {
       </section>
       <section className="flex relative lg:h-auto">
         <img
-          src="/../public/calender.png"
+          src="/calender.png"
           alt={"Calendar image"}
           width={450}
           height={350.42}
