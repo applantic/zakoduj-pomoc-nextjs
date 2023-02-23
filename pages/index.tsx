@@ -14,22 +14,22 @@ const Home = () => {
             żebyście Wy mogli pracować lżej
           </p>
         </div>
-        <Image
-          src="/../public/laptop.png"
+        <img
+          src="/laptop.png"
           alt={"Laptop image"}
           width={500}
           height={446.43}
           className="hidden my-4 mx-8 absolute max-w-xs lg:inline lg:static lg:z-auto lg:max-w-lg"
-        ></Image>
+        ></img>
       </section>
       <section className="flex relative lg:h-auto">
-        <Image
-          src="/../public/calender.png"
+        <img
+          src="/calender.png"
           alt={"Calendar image"}
           width={450}
           height={350.42}
           className="hidden my-4 mx-8 absolute lg:inline lg:static lg:z-auto lg:pr-5 lg:max-w-md"
-        ></Image>
+        ></img>
         <div className="flex flex-col justify-center mb-2.5 max-w-lg">
           <h2 className="text-indigo-900 font-semibold text-2xl mx-0 my-px lg:text-4xl lg:mx-0 lg:my-1">
             Potrzebujesz Pomocy?
@@ -52,13 +52,13 @@ const Home = () => {
           </p>
           <Button link="./projects" message="Dowiedz się więcej" />
         </div>
-        <Image
-          src="/../public/folder.png"
+        <img
+          src="/folder.png"
           alt={"Folder image"}
           width={430}
           height={394.79}
           className="hidden my-4 mx-8 max-w-xs absolute lg:inline lg:static lg:z-auto lg:max-w-md"
-        ></Image>
+        ></img>
       </section>
     </main>
   );
