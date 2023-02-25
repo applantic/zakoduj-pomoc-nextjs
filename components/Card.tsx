@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 interface CardProps {
   title: string;
@@ -16,26 +15,21 @@ export const Card = ({
   description,
   link,
 }: CardProps) => {
+  
   return (
-    <section>
-      <h2>{title}</h2>
-      <div>
-        <div>
-          <Image
+    <section className="max-w-3xl">
+      <h2 className="text-indigo-900 font-semibold text-lg my-4 mx-6 md:mx-0 md:mb-0 md:mt-8">{title}</h2>
+      <div className="flex bg-gradient-to-br from-purple-200 via-indigo-100 shadow-lg rounded-lg">
+        <div className="w-fit">
+          <img
             src={image}
             alt={"Image of project"}
-            width={450}
-            height={350.42}
-          ></Image>
+            width={350}
+            height={250.42}
+            className="shadow-lg rounded-sm"
+          ></img>
         </div>
-        <div>
-          <div>
-            <p>Ciągle rozwijamy ten projekt</p>
-            <Link href={link}>chcesz pomóc?</Link>
-            <span> 🤗</span>
-          </div>
-        </div>
-        <p>{description}</p>
+        <p className="max-w-xs">{description}</p>
       </div>
     </section>
   );

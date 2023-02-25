@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Button } from "../components/Button";
 
 const Home = () => {
@@ -41,7 +40,7 @@ const Home = () => {
           <Button link="./contact" message="Dowiedz się więcej" />
         </div>
       </section>
-      <section className="flex relative lg:h-auto">
+      <section className="flex relative lg:h-auto mb-14">
         <div className="flex flex-col justify-center mb-2.5 max-w-lg">
           <h2 className="text-indigo-900 font-semibold text-2xl leading-5 mx-0 my-1 lg:text-4xl">
             Zobacz nasze projekty.
