@@ -6,5 +6,8 @@ module.exports = {
       Poppins: ["Poppins"],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+    // ...
+  ],
 };

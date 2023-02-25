@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 
 interface CardProps {
   title: string;
@@ -20,7 +20,7 @@ export const Card = ({
     <section className="max-w-3xl">
       <h2 className="text-indigo-900 font-semibold text-lg my-4 mx-6 md:mx-0 md:mb-0 md:mt-8">{title}</h2>
       <div className="flex bg-gradient-to-br from-purple-200 via-indigo-100 shadow-lg rounded-lg">
-        <div className="w-fit">
+        <div className="w-max">
           <img
             src={image}
             alt={"Image of project"}
@@ -29,7 +29,9 @@ export const Card = ({
             className="shadow-lg rounded-sm"
           ></img>
         </div>
-        <p className="max-w-xs">{description}</p>
+        <article className="prose px-4 my-1 max-w-sm">
+        <ReactMarkdown className="">{description}</ReactMarkdown>
+        </article>
       </div>
     </section>
   );
