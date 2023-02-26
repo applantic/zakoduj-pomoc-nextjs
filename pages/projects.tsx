@@ -16,14 +16,12 @@ const Projects = () => {
 })        
 
   return (
-    <div className="bg-slate-50 px-36 w-full max-h-fit">
-      <div className="flex flex-col items-center mb-10">
+    <div className="bg-slate-50 w-screen max-h-fit flex flex-col items-center mb-10">
       <h1 className="text-3xl text-indigo-900 font-semibold my-4 mx-6 sm:mx-0 lg:my-4">
         Projekty
       </h1>
-      <p className="text-lg text-indigo-900 my-0 mx-6 sm:mx-0 lg:my-0">oto lista projektów:</p>
+      <p className="text-md text-indigo-900 my-0 mx-6 md:text-lg sm:mx-0 lg:my-0">oto lista projektów:</p>
       {cards}
-      </div>
     </div>
   );
 };

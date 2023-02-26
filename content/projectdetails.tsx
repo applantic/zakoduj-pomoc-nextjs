@@ -23,6 +23,7 @@ export default [
         Podczas pierwszego roku działa systemu, do fundacji dotarło ponad **41,000 dotacji** włosów.  
         Mimo że fundacja Zakoduj Pomoc nie miała wtedy formalnej działalności, uznajemy to za początek naszej organizacji.
         `,
+        
         link:
           "https://www.pw.edu.pl/engpw/News/WUT-graduate-with-success-at-HackYeah2",
     },
@@ -34,6 +35,7 @@ export default [
         description: `Podczas pierwszego lockdownu nauczyciele stanęli przed wielkim wyzwaniem- **zdalnym nauczaniem.**  
         Zespół Geeks3Teachers indywidualnie edukował nauczycieli na temat oprogramowania do zdalnego nauczania.  
         W między czasie Dawid Perdek wziął pod swoje skrzydła trzy ambitne osoby **bez doświadczenia** programistycznego, do budowania strony pozyskującej wolontariuszy i nauczycieli`,
+        
         link:
           "https://outride.rs/en/a-group-of-polish-computer-programmers-want-to-help-teachers-work-remotely/",
     }
