@@ -1,17 +1,20 @@
+import { InferGetStaticPropsType } from "next";
 import { Card } from "../components/Card";
-import projectdetails from "../content/projectdetails";
+import { GetAllProductsDocument, GetAllProductsQuery } from "../generated/gql/graphql";
+import { apolloClient } from "../graphql/apolloClient";
 
-const Projects = () => {
-  const cards = projectdetails.map(item => {
+
+const Projects = ({data}:InferGetStaticPropsType<typeof getStaticProps>) => {
+  
+  
+  const cards = data.projects.map(item => {
     return (
         <Card
-            key={item.id}
-            title={item.title}
-            active={item.active}
-            image={item.image}
-            description={item.description}
-            link={item.link}
-        />
+          key={item.id}
+          title={item.title}
+          active={item.active}
+          image={item.image.url}
+          description={item.description}/>
     )
 })        
 
@@ -27,3 +30,15 @@ const Projects = () => {
 };
 
 export default Projects;
+
+export const getStaticProps = async () => {
+  const { data } = await apolloClient.query<GetAllProductsQuery>({
+    query: GetAllProductsDocument
+  });
+  
+  return {
+    props: {
+      data,
+    }
+  }
+}

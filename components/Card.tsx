@@ -5,7 +5,6 @@ interface CardProps {
   active: boolean;
   image: string;
   description: string;
-  link: string;
 }
 
 export const Card = ({
@@ -13,7 +12,6 @@ export const Card = ({
   active,
   image,
   description,
-  link,
 }: CardProps) => {
   
   return (

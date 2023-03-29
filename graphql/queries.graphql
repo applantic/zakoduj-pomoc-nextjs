@@ -1,0 +1,12 @@
+query GetAllProducts {
+    projects {
+      title
+      active
+      description
+      id
+      image {
+        url
+        id
+      }
+    }
+  }
